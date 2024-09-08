@@ -21,7 +21,7 @@
   flex-direction: column;
   align-items: center;
   font-family: var(--main-font);
-  font-variation-settings: var(--main-weight);
+  font-variation-settings: "wght" 400, "wdth" 100, "opsz" 0;
   font-size: 14px;
   background-image: var(--bg-gradient);
   background-attachment: fixed;
@@ -184,7 +184,7 @@
   background-color: transparent;
   border: 2px solid transparent;
   cursor: pointer;
-  transition: border 0.3s ease; 
+  transition: border 0.3s ease;
 }
 
 .card__icon-button:focus-visible {
@@ -270,14 +270,14 @@
   cursor: pointer;
 }
 
-.diolog-button:focus-visible, 
-.button_disket:focus-visible, 
+.diolog-button:focus-visible,
+.button_disket:focus-visible,
 .card__like-button:focus-visible {
   outline: none;
   box-shadow: 2px 2px var(--accent-color);
 }
 
-.button_disket::before, 
+.button_disket::before,
 .card__like-button::before {
   position: absolute;
   content: "";
@@ -430,7 +430,7 @@ dialog {
   filter: opacity(0.8);
 }
 
-.saturate{
+.saturate {
   filter: saturate(158%);
 }
 
